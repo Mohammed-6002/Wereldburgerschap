@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Burgerschap - Scenario 3</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-glass sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        🌍 Burgerschap
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="globalisering.html">Globalisering</a></li>
+          <li class="nav-item"><a class="nav-link" href="handel.html">Int. Handel</a></li>
+          <li class="nav-item"><a class="nav-link" href="gevolgen.html">Gevolgen</a></li>
+          <li class="nav-item"><a class="nav-link" href="samenwerking.html">Samenwerking</a></li>
+          <li class="nav-item"><a class="nav-link" href="reflectie.html">Reflectie</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-primary btn-sm px-3" href="mening.html">
+              Mening
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero py-5 border-bottom">
+    <div class="container py-4">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold">Scenario 3:<br><span class="text-primary">Wat als de grenzen dichtgaan?</span>
+          </h1>
+          <p class="lead text-secondary mt-3">
+            Welkom op onze site. Hier leg ik uit wat er gebeurt als landen stoppen met handelen.
+            Een kijkje in de wereld van internationale handel, economie en afhankelijkheid.
+          </p>
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <a class="btn btn-primary btn-lg" href="globalisering.html">Start het verhaal</a>
+            <a class="btn btn-outline-secondary btn-lg" href="mening.html">Onze mening</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="ratio ratio-1x1 rounded-4 overflow-hidden shadow">
+            <img
+              src="https://pixabay.com/get/g9a3a2285800628b24b3ccb61fb7350e4242516d2b1f1ce9f31678a92149173d30b33fc2c2d1df5e7e1de70406d8dcbc5e66ab27b8552c358e8d9b13545917b6d_1280.jpg"
+              alt="Container ship" class="w-100 h-100 object-fit-cover">
+          </div>
+          <div class="alert alert-light border mt-3 mb-0">
+            <strong>Wist je dat?</strong> Zonder import zou de supermarkt bijna leeg zijn. Geen koffie, geen bananen, en
+            bijna geen elektronica.
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <!-- Intro -->
+    <div class="text-center mb-5 intro-blok p-5 rounded-4">
+      <h2 class="fw-bold mb-3">Waar gaat deze site over?</h2>
+      <p class="text-secondary mb-0 col-lg-8 mx-auto">
+        In deze opdracht onderzoek ik de impact van globalisering en internationale handel
+        op ons dagelijks leven en onze economie.
+      </p>
+    </div>
+
+    <!-- Kaarten -->
+    <div class="row g-4">
+      <div class="col-md-4">
+        <a class="text-decoration-none" href="globalisering.html">
+          <div class="card topic-card h-100">
+            <div class="card-body p-4">
+              <span class="badge bg-primary mb-3">Thema 1</span>
+              <h3 class="h5 fw-bold">Globalisering</h3>
+              <p class="text-secondary mb-0">
+                Hoe landen wereldwijd verbonden zijn en wat dit betekent voor mensen en bedrijven.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a class="text-decoration-none" href="handel.html">
+          <div class="card topic-card h-100">
+            <div class="card-body p-4">
+              <span class="badge bg-success mb-3">Thema 2</span>
+              <h3 class="h5 fw-bold">Internationale handel</h3>
+              <p class="text-secondary mb-0">
+                Waarom landen handelen, wat ze importeren en exporteren en hoe dit ons raakt.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a class="text-decoration-none" href="gevolgen.html">
+          <div class="card topic-card h-100">
+            <div class="card-body p-4">
+              <span class="badge bg-danger mb-3">Scenario</span>
+              <h3 class="h5 fw-bold">Het doemscenario</h3>
+              <p class="text-secondary mb-0">
+                Wat gebeurt er als grenzen sluiten en internationale handel stopt?
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="border-top py-4">
+    <div class="container text-center text-secondary small">
+      © <span id="year"></span> Burgerschap Eindopdracht - Scenario 3 van Mohammed Hmydou en Darvan Kameran Sulaiman
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

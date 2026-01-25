@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Internationale Samenwerking</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <style>
+    .card-soft {
+      border-radius: 20px;
+      border: 1px solid #e6e8ec;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, .05);
+      padding: 24px;
+      background: #fff;
+      height: 100%;
+    }
+
+    .card-soft--blue {
+      background: rgba(13, 110, 253, .08);
+      border-color: rgba(13, 110, 253, .18);
+    }
+
+    .card-soft--yellow {
+      background: rgba(255, 193, 7, .12);
+      border-color: rgba(255, 193, 7, .22);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-glass sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        🌍 Burgerschap
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="globalisering.html">Globalisering</a></li>
+          <li class="nav-item"><a class="nav-link" href="handel.html">Int. Handel</a></li>
+          <li class="nav-item"><a class="nav-link" href="gevolgen.html">Gevolgen</a></li>
+          <li class="nav-item"><a class="nav-link" href="samenwerking.html">Samenwerking</a></li>
+          <li class="nav-item"><a class="nav-link" href="reflectie.html">Reflectie</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-primary btn-sm px-3" href="mening.html">
+              Mening
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="py-5 border-bottom">
+    <div class="container">
+      <h1 class="display-6 fw-bold">Internationale samenwerking</h1>
+      <p class="lead text-secondary mb-0">
+        Landen werken samen omdat je sommige problemen niet alleen kunt oplossen.
+      </p>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- Waarom samenwerken -->
+        <div class="col-lg-6">
+          <div class="card-soft">
+            <h2 class="h5 fw-bold mb-2">Waarom landen samenwerken</h2>
+            <p class="text-secondary mb-0">
+              Landen hebben elkaar nodig. Veel dingen gaan over grenzen heen, zoals handel,
+              oorlogen, vluchtelingen en klimaat. Door samen te werken kunnen landen afspraken
+              maken, elkaar helpen en problemen sneller aanpakken.
+            </p>
+          </div>
+        </div>
+
+        <!-- Voorbeeld (EU) -->
+        <div class="col-lg-6">
+          <div class="card-soft card-soft--blue">
+            <h2 class="h5 fw-bold mb-2">Voorbeeld: de EU</h2>
+            <p class="text-secondary mb-0">
+              De Europese Unie is een samenwerking van landen in Europa. Binnen de EU zijn er
+              gezamenlijke regels en afspraken, waardoor handel en samenwerken makkelijker wordt.
+              Zo staan landen sterker dan wanneer iedereen alles alleen zou doen.
+            </p>
+          </div>
+        </div>
+
+        <!-- Korte afsluiting -->
+        <div class="col-lg-12">
+          <div class="card-soft card-soft--yellow">
+            <h2 class="h5 fw-bold mb-2">Kort gezegd</h2>
+            <p class="text-secondary mb-0">
+              Internationale samenwerking is belangrijk omdat landen afhankelijk zijn van elkaar.
+              Met een voorbeeld zoals de EU laat je zien hoe landen samen afspraken maken en daar
+              voordeel uit halen.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="d-flex justify-content-between mt-5">
+        <a class="btn btn-outline-primary" href="gevolgen.html">← Gevolgen</a>
+        <a class="btn btn-primary" href="reflectie.html">Volgende: Reflectie →</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-top py-4">
+    <div class="container text-center small text-secondary">
+      © <span id="year"></span> Burgerschap Eindopdracht - Scenario 3 van Mohammed Hmydou en Darvan Kameran Sulaiman
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
