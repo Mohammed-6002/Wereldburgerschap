@@ -90,9 +90,15 @@
 /* ===== ALGEMEEN ===== */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9fafb;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   color: #333;
   line-height: 1.6;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 /* ===== HANDEL HEADER ===== */
@@ -206,15 +212,28 @@ p.fw-semibold {
 
 /* ===== BUTTONS ===== */
 .btn-primary {
-  background-color: #0d6efd;
-  border-color: #0d6efd;
-  transition: background-color 0.3s ease;
+  background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(13, 110, 253, 0.3);
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #084abe;
-  border-color: #084abe;
+  background: linear-gradient(135deg, #084abe 0%, #520dc2 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(13, 110, 253, 0.4);
+}
+
+.btn-outline-secondary {
+  border: 2px solid #6c757d;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+  border-color: #495057;
+  transform: translateY(-2px);
 }
 
 /* Reflectie cards */
