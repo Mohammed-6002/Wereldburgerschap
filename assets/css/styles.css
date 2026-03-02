@@ -9,7 +9,6 @@
 
 .brand{ letter-spacing: 0.2px; }
 
-/* ===== MODERNE NAVBAR ===== */
 .navbar-glass {
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
